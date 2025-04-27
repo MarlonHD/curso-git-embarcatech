@@ -1,0 +1,15 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init
+git config user.name "MarlonHD"
+git config user.email "marlonsilva840@gmail.com"
+echo "Marlon da Silva Dantas - 20251ZL00130075" > nome_matricula.txt
+git add nome_matricula.txt
+git commit -m "Adicionando nome e matrícula"
+git remote add origin https://github.com/MarlonHD/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
+nano comandos_utilizados.txt
+git add comandos_utilizados.txt
+git commit -m "Adicionando lista de comandos"
+git push
